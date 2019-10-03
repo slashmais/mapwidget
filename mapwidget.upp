@@ -1,0 +1,25 @@
+description "mindmap-like idea-capture tool\377";
+
+uses
+	CtrlLib,
+	utilfuncs;
+
+file
+	maptypes.h,
+	toolbox.h,
+	mapwidget.h,
+	mapwidget.cpp,
+	drawer.cpp,
+	mappics.h,
+	mappics.cpp,
+	mappics.iml,
+	topicwidget.cpp,
+	linkwidget.cpp,
+	shapes.cpp,
+	fontsel.h,
+	fontsel.cpp,
+	mapwidget.lay;
+
+mainconfig
+	"" = "GUI";
+
